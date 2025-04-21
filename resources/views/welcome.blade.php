@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <a href="{{ route('coffees.index') }}">Mulai Manage Kopi</a>
+    <a href="{{ route('coffees.index') }}">OneStreet coffee</a>
 </body>
 
 </html>
