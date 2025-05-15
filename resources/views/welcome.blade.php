@@ -10,5 +10,5 @@
 <body>
     <a href="{{ route('coffees.index') }}">OneStreet coffee</a>
 </body>
-
+    
 </html>

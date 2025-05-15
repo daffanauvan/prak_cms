@@ -81,7 +81,7 @@
 								Awali Harimu Dengan <br>
                                       OneStreet Coffee				
 							</h1>
-							<a href="#" class="primary-btn text-uppercase">Order Now</a>
+							<a href="order" class="btn btn-primary">Order Now</a>
 						</div>											
 					</div>
 				</div>
