@@ -10,19 +10,19 @@ class OrderController extends Controller
 {
     public function create()
     {
-        $coffees = Coffee::all();
-        return view('order.create', compact('coffees'));
+        return view('order.create');
     }
 
     public function store(Request $request)
     {
         $validated = $request->validate([
-            'nama' => 'required|string|max:255',
-            'coffee_id' => 'required|exists:coffees,id',
+            'NAMA' => 'required|string|max:255',
+            'COFFEE' => 'required|string|max:255',
+            'JUMLAH' => 'required|integer|min:1',
         ]);
 
         Order::create($validated);
 
-        return redirect()->back()->with('success', 'Pesanan berhasil dikirim!');
+        return redirect()->back()->with('success', 'Pesanan berhasil disimpan!');
     }
 }

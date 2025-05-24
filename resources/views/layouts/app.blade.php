@@ -97,12 +97,16 @@
 							<a class="play-btn" href="https://www.youtube.com/watch?v=ARA0AxrnHdM"><img class="img-fluid" src="img/play-icon.png" alt=""></a>
 						</div>						
 						<div class="col-lg-6 video-left">
-							<h6>Live Coffee making process.</h6>
-							<h1>We Telecast our <br>
-							Coffee Making Live</h1>
-							<p><span>We are here to listen from you deliver exellence</span></p>
+	
+							<p><span>Welcome To OneStreet Coffee</span></p>
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+								Onestreet Coffee hadir dari kecintaan kami terhadap kopi dan momen kebersamaan. Berdiri di tengah hiruk-pikuk kota, kami ingin menjadi tempat persinggahan yang nyaman bagi siapa pun yang mencari kehangatan, ketenangan, dan tentu saja, secangkir kopi yang nikmat.
+
+Kami percaya bahwa setiap cangkir kopi punya cerita. Itulah mengapa kami hanya menggunakan biji kopi pilihan dari petani lokal Indonesia, diproses dengan penuh perhatian, dan disajikan dengan sepenuh hati oleh barista kami yang berpengalaman.
+
+Lebih dari sekadar tempat minum kopi, Onestreet Coffee adalah ruang untuk bertemu, berbagi ide, dan menciptakan kenangan. Entah kamu datang untuk bekerja, berbincang dengan teman, atau sekadar menikmati waktu sendiri—kami siap menyambutmu.
+
+Mari duduk, seruput kopi, dan rasakan hangatnya suasana di Onestreet Coffee.
 							</p>
 							<img class="img-fluid" src="img/signature.png" alt="">
 						</div>
@@ -117,23 +121,22 @@
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-60 col-lg-10">
 							<div class="title text-center">
-								<h1 class="mb-10">What kind of Coffee we serve for you</h1>
-								<p>Who are in extremely love with eco friendly system.</p>
+								<h1 class="mb-10">Mau Kopi Apa Untuk Hari Ini?</h1>
+								<p>Kami menyediakan kopi dengan kualitas terbaik dan dibikin sepenuh hati</p>
 							</div>
 						</div>
 					</div>						
-					<div class="row">
+					 <div class="row">
 						<div class="col-lg-4">
 							<div class="single-menu">
 								<div class="title-div justify-content-between d-flex">
 									<h4>Cappuccino</h4>
 									<p class="price float-right">
-										$49
+										$2,5
 									</p>
 								</div>
 								<p>
-									Usage of the Internet is becoming more common due to rapid advance.
-								</p>								
+									kopi yang memiliki rasa lembut, halus, dan seimbang antara rasa pahit kopi dan manis susu. Rasa kopi tetap terasa kuat, namun dilapis busa susu yang creamy.
 							</div>
 						</div>
 						<div class="col-lg-4">
@@ -141,11 +144,11 @@
 								<div class="title-div justify-content-between d-flex">
 									<h4>Americano</h4>
 									<p class="price float-right">
-										$49
+										$1,5
 									</p>
 								</div>
 								<p>
-									Usage of the Internet is becoming more common due to rapid advance.
+									Rasa kopi yang kuat namun tidak terlalu pahit seperti espresso murni. 
 								</p>								
 							</div>
 						</div>
@@ -154,11 +157,11 @@
 								<div class="title-div justify-content-between d-flex">
 									<h4>Espresso</h4>
 									<p class="price float-right">
-										$49
+										$1,5
 									</p>
 								</div>
 								<p>
-									Usage of the Internet is becoming more common due to rapid advance.
+									 Rasa pahit yang kuat, terutama karena konsentrasi kopi yang tinggi. 
 								</p>								
 							</div>
 						</div>	
@@ -167,11 +170,11 @@
 								<div class="title-div justify-content-between d-flex">
 									<h4>Macchiato</h4>
 									<p class="price float-right">
-										$49
+										$2
 									</p>
 								</div>
 								<p>
-									Usage of the Internet is becoming more common due to rapid advance.
+									Rasa perpaduan unik antara rasa kopi yang kuat dan sentuhan lembut susu
 								</p>								
 							</div>
 						</div>
@@ -180,11 +183,11 @@
 								<div class="title-div justify-content-between d-flex">
 									<h4>Mocha</h4>
 									<p class="price float-right">
-										$49
+										$2
 									</p>
 								</div>
 								<p>
-									Usage of the Internet is becoming more common due to rapid advance.
+									 Rasa perpaduan yang unik antara rasa kopi dan cokelat. Secara umum, mocha memiliki rasa manis seperti cokelat dengan sentuhan rasa pahit dari kopi.
 								</p>								
 							</div>
 						</div>
@@ -193,11 +196,11 @@
 								<div class="title-div justify-content-between d-flex">
 									<h4>Coffee Latte</h4>
 									<p class="price float-right">
-										$49
+										$1,5
 									</p>
 								</div>
 								<p>
-									Usage of the Internet is becoming more common due to rapid advance.
+									Rasa perpaduan antara kopi yang sedikit pahit dan rasa susu yang lembut dan manis.
 								</p>								
 							</div>
 						</div>
@@ -206,11 +209,11 @@
 								<div class="title-div justify-content-between d-flex">
 									<h4>Piccolo Latte</h4>
 									<p class="price float-right">
-										$49
+										$2,5
 									</p>
 								</div>
 								<p>
-									Usage of the Internet is becoming more common due to rapid advance.
+									Rasa kopi yang kuat namun tetap lembut karena perpaduan espresso dengan sedikit susu.
 								</p>								
 							</div>
 						</div>
@@ -219,11 +222,11 @@
 								<div class="title-div justify-content-between d-flex">
 									<h4>Ristretto</h4>
 									<p class="price float-right">
-										$49
+										$2
 									</p>
 								</div>
 								<p>
-									Usage of the Internet is becoming more common due to rapid advance.
+									Rasa yang kuat, manis, dan sedikit asam dengan aroma buah atau cokelat.
 								</p>								
 							</div>
 						</div>
@@ -232,11 +235,11 @@
 								<div class="title-div justify-content-between d-flex">
 									<h4>Affogato</h4>
 									<p class="price float-right">
-										$49
+										$3
 									</p>
 								</div>
 								<p>
-									Usage of the Internet is becoming more common due to rapid advance.
+									Perpaduan sensasi manis, pahit, dan dingin dari Es krim vanila
 								</p>								
 							</div>
 						</div>															

@@ -10,8 +10,9 @@
                 <p>{{ $coffee->deskripsi }}</p>
                 <span>Rp {{ number_format($coffee->harga, 0, ',', '.') }}</span>
                 <div>
-                    <a href="{{ route('coffees.edit', $coffee) }}" class="btn btn-warning">Edit</a>
-                    <form action="{{ route('coffees.destroy', $coffee) }}" method="POST" style="display:inline;">
+                   <a href="{{ route('coffees.edit', $coffee->id) }}" class="btn btn-warning">Edit</a>
+<form action="{{ route('coffees.destroy', $coffee->id) }}" method="POST" style="display:inline;">
+
                         @csrf
                         @method('DELETE')
                         <button type="submit" class="btn btn-danger">Hapus</button>

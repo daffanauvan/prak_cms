@@ -15,11 +15,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
     return view('welcome');
 });
 Route::resource('coffees', CoffeeController::class);
 Route::get('order', [OrderController::class, 'create'])->name('order.form');
 Route::post('/order/submit', [OrderController::class, 'store'])->name('order.submit');
+Route::get('/orders/create', [OrderController::class, 'create'])->name('orders.create');
+Route::post('/orders', [OrderController::class, 'store'])->name('orders.store');
 
 

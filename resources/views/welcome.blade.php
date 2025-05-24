@@ -9,6 +9,8 @@
 
 <body>
     <a href="{{ route('coffees.index') }}">OneStreet coffee</a>
+    <a href="{{ route('order.form') }}" class="btn btn-primary">ORDER NOW</a>
+
 </body>
     
 </html>
