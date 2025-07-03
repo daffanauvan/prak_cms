@@ -30,6 +30,9 @@
 			<link rel="stylesheet" href="css/main.css">
 		</head>
 		<body>
+			<div class="loading-overlay" id="loadingOverlay">
+				<div class="loading-spinner"></div>
+			</div>
 
 			  <header id="header" id="home">
 				<div class="header-top">
@@ -132,10 +135,10 @@ Mari duduk, seruput kopi, dan rasakan hangatnya suasana di Onestreet Coffee.
 								<div class="title-div justify-content-between d-flex">
 									<h4>Cappuccino</h4>
 									<p class="price float-right">
-										$2,5
+										RP 25.000
 									</p>
 								</div>
-								<p>
+								<p> 
 									kopi yang memiliki rasa lembut, halus, dan seimbang antara rasa pahit kopi dan manis susu. Rasa kopi tetap terasa kuat, namun dilapis busa susu yang creamy.
 							</div>
 						</div>
@@ -144,7 +147,7 @@ Mari duduk, seruput kopi, dan rasakan hangatnya suasana di Onestreet Coffee.
 								<div class="title-div justify-content-between d-flex">
 									<h4>Americano</h4>
 									<p class="price float-right">
-										$1,5
+										RP 18.000
 									</p>
 								</div>
 								<p>
@@ -157,7 +160,7 @@ Mari duduk, seruput kopi, dan rasakan hangatnya suasana di Onestreet Coffee.
 								<div class="title-div justify-content-between d-flex">
 									<h4>Espresso</h4>
 									<p class="price float-right">
-										$1,5
+										RP 17.000
 									</p>
 								</div>
 								<p>
@@ -170,7 +173,7 @@ Mari duduk, seruput kopi, dan rasakan hangatnya suasana di Onestreet Coffee.
 								<div class="title-div justify-content-between d-flex">
 									<h4>Macchiato</h4>
 									<p class="price float-right">
-										$2
+										RP 28.000
 									</p>
 								</div>
 								<p>
@@ -183,7 +186,7 @@ Mari duduk, seruput kopi, dan rasakan hangatnya suasana di Onestreet Coffee.
 								<div class="title-div justify-content-between d-flex">
 									<h4>Mocha</h4>
 									<p class="price float-right">
-										$2
+										RP 28.000
 									</p>
 								</div>
 								<p>
@@ -196,7 +199,7 @@ Mari duduk, seruput kopi, dan rasakan hangatnya suasana di Onestreet Coffee.
 								<div class="title-div justify-content-between d-flex">
 									<h4>Coffee Latte</h4>
 									<p class="price float-right">
-										$1,5
+										RP 25.000
 									</p>
 								</div>
 								<p>
@@ -209,7 +212,7 @@ Mari duduk, seruput kopi, dan rasakan hangatnya suasana di Onestreet Coffee.
 								<div class="title-div justify-content-between d-flex">
 									<h4>Piccolo Latte</h4>
 									<p class="price float-right">
-										$2,5
+										RP 30.000
 									</p>
 								</div>
 								<p>
@@ -222,7 +225,7 @@ Mari duduk, seruput kopi, dan rasakan hangatnya suasana di Onestreet Coffee.
 								<div class="title-div justify-content-between d-flex">
 									<h4>Ristretto</h4>
 									<p class="price float-right">
-										$2
+										RP 28.000
 									</p>
 								</div>
 								<p>
@@ -235,7 +238,7 @@ Mari duduk, seruput kopi, dan rasakan hangatnya suasana di Onestreet Coffee.
 								<div class="title-div justify-content-between d-flex">
 									<h4>Affogato</h4>
 									<p class="price float-right">
-										$3
+										RP 32.000
 									</p>
 								</div>
 								<p>
@@ -471,6 +474,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			<script src="js/jquery.counterup.min.js"></script>					
 			<script src="js/mail-script.js"></script>	
 			<script src="js/main.js"></script>	
+			<script>
+				window.addEventListener('load', function() {
+					document.getElementById('loadingOverlay').style.opacity = 0;
+					setTimeout(function() {
+						document.getElementById('loadingOverlay').style.display = 'none';
+					}, 300);
+				});
+			</script>
 		</body>
 	</html>
 

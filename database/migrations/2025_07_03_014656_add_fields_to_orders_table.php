@@ -12,10 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('orders', function (Blueprint $table) {
-            $table->string('NAMA')->nullable();
-            $table->string('COFFEE')->nullable();
-            $table->integer('JUMLAH')->nullable();
-            $table->decimal('TOTAL_HARGA', 10, 2)->nullable();
+            //
         });
     }
 
@@ -25,7 +22,7 @@ return new class extends Migration
     public function down(): void
     {
         Schema::table('orders', function (Blueprint $table) {
-            $table->dropColumn(['NAMA', 'COFFEE', 'JUMLAH', 'TOTAL_HARGA']);
+            //
         });
     }
 };

@@ -209,7 +209,7 @@
                 <button type="submit" class="btn-login"><i class="fa fa-sign-in-alt"></i> Login</button>
             </form>
             <div class="register-link">
-                Belum punya akun? <a href="{{ route('register') }}">Daftar di sini</a> 
+                Belum punya akun? <a href="{{ route('register') }}">Daftar di sini</a>
             </div>
             <div class="login-footer">
                 &copy; {{ date('Y') }} OnStreet Coffee. All rights reserved.

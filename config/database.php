@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'oracle'),
 
     /*
     |--------------------------------------------------------------------------
@@ -40,7 +40,7 @@ return [
             'tns'           => env('DB_TNS', ''),
             'host'          => env('DB_HOST', 'localhost'),
             'port'          => env('DB_PORT', '1521'),
-            'database'      => env('DB_DATABASE', 'XEPDB1'),
+            'database'      => env('DB_DATABASE', 'orders'),
             'username'      => env('DB_USERNAME', 'Nauvan'),
             'password'      => env('DB_PASSWORD', '241220074'),
             'charset'       => 'AL32UTF8',
@@ -48,8 +48,8 @@ return [
             'prefix_schema' => env('DB_SCHEMA_PREFIX', ''),
             'edition'        => 'ora$base',
             'server_version' => '12c',
-            'service_name'  => env('DB_DATABASE', 'XEPDB1'),
-            ],
+            'service_name'  => env('DB_DATABASE', 'orders'),
+        ],
 
         'sqlite' => [
             'driver' => 'sqlite',

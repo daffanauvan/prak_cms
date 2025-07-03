@@ -18,7 +18,7 @@ class CoffeeFactory extends Factory
     {
         return [
             'nama' => $this->faker->sentence,
-            'deskripsi'=> $this->faker->paragraphs(3, true),
+            'deskripsi'=> $this->faker->text(250),
             'harga'=> $this->faker->randomFloat(2, 10000, 1000000),
             'created_at' => now(),
             'updated_at' => now(),

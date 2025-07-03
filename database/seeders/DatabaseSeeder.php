@@ -12,6 +12,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        CoffeeSeeder::class;
+        $this->call([
+            CoffeeSeeder::class,
+            PembayaranSeeder::class,
+        ]);
     }
 }
